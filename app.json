@@ -1,0 +1,18 @@
+{
+  "name": "Think-in-React Tutorial Server",
+  "description": "Code from the official Think-in-React tutorial",
+  "keywords": [
+    "react",
+    "reactjs",
+    "tutorial",
+    "think-in-react"
+  ],
+  "repository": "https://github.com/Atlas7/think-in-react",
+  "logo": "https://facebook.github.io/react/img/logo.svg",
+  "website": "",
+  "success_url": "/",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}
+
