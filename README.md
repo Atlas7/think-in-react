@@ -10,7 +10,7 @@ This is the React comment box example from [the React tutorial](http://facebook.
 
 ## To use
 
-(Note: I've modified the initial NodeJS configuration to use the NodeJS `nodemon` module for server-side hot-loading. i.e server-side scripts are reloaded automatically without the need to restarting server.````)
+(Note: I've modified the initial NodeJS configuration to use the NodeJS `nodemon` module for server-side hot-loading. i.e server-side scripts are reloaded automatically without the need to restarting server.)
 
 ```.sh
 npm install
