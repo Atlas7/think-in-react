@@ -25,9 +25,12 @@ var ProductTable = React.createClass({
     var rows = [];
     var lastCategory = null;
     this.props.products.forEach(function(product) {
-      if (product.name.indexOf(this.props.filterText) === -1 || (!product.stocked && this.props.inStockOnly)) {
-        return;
+      // case 1: display nothing
+      if (product.name.toLowerCase().indexOf(this.props.filterText.toLowerCase()) === -1 ||
+        (!product.stocked && this.props.inStockOnly)) {
+          return;
       }
+      // case 2: display something
       if (product.category !== lastCategory) {
         rows.push(<ProductCategoryRow category={product.category} key={product.category} />);
       }
