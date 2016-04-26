@@ -6,7 +6,7 @@
 
 # React Tutorial - Think in React (Pete Hunt's example)
 
-This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
+This is the React comment box example from [the official Think-in-React tutorial](https://facebook.github.io/react/docs/thinking-in-react.html).
 
 ## To use
 
